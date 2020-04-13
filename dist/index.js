@@ -8,6 +8,6 @@ const dotenv_1 = require("dotenv");
 dotenv_1.config();
 const app = express_1.default();
 const port = process.env.SERVER_PORT;
-app.get('/', (req, res) => res.send('hello world'));
+app.get('/', (req, res) => res.send('helllcdsdlo world'));
 app.listen(port);
 //# sourceMappingURL=index.js.map

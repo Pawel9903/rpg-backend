@@ -1,7 +1,7 @@
 "use strict";
 
-import {config} from "dotenv"
 import {createConnection} from 'mysql'
+import {config} from 'dotenv'
 config();
 
 const {env: { DB_HOST:host, DB_USER: user, DB_PASS: password, DB_NAME: database }} = process;
